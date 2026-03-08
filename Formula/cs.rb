@@ -1,9 +1,9 @@
 class Cs < Formula
     desc "CLI for Cloud Sandboxes"
     homepage "https://sandboxes.cloud"
-    url "https://storage.googleapis.com/cloud-sandboxes/cs/1.9.2-831c516/cs-darwin-amd64.tar.gz"
-    version "1.9.2-831c516"
-    sha256 "e5461b4f2b0eda305e33c8912adeae5ef252a9b5a7f0e66771a5d21101e65236"
+    url "https://storage.googleapis.com/cloud-sandboxes/cs/2.0.0-49506a6/cs-darwin-amd64.tar.gz"
+    version "2.0.0-49506a6"
+    sha256 "83e43c2ee1bd9cc63645e87b5a1eb4a39d49a42e5d40b65bcb971b9c96aefe25"
   
     def install
       bin.install "cs"
